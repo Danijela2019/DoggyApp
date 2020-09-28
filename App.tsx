@@ -14,7 +14,7 @@ import Navigation from './navigation';
 // import Authenticate from './components/Authenticate';
 
 const client = new ApolloClient({
-  uri: 'http://192.168.0.12:4000',
+  uri: 'http://localhost:4000',
   cache: new InMemoryCache(),
 });
 
