@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import * as React from 'react';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { View } from '../components/Themed';

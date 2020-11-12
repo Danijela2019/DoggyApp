@@ -1,5 +1,5 @@
 import React from 'react';
-import { Picker } from '@react-native-community/picker';
+import Picker from  '@react-native-community/picker/js/Picker';
 import { StyleSheet } from 'react-native';
 import { DropdownMenuProps } from '../types';
 
@@ -13,7 +13,7 @@ export default function DropdownMenu({ data }: DropdownMenuProps): React.ReactEl
       selectedValue={selected}
       style={long ? styles.longDropDown : styles.shortDropDown}
       mode="dropdown"
-      onValueChange={(itemValue) => setSelected(itemValue)}
+      onValueChange={(itemValue:any) => setSelected(itemValue)}
     >
       {items
         ? items.map((el) => <Picker.Item key={el} label={el} value={el} />)
