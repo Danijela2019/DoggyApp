@@ -11,7 +11,6 @@ import Colors from '../constants/Colors';
 import NotFoundScreen from '../screens/NotFoundScreen';
 
 import BottomTabNavigator from './BottomTabNavigator';
-import DrawerNavigation from './DrawerNavigation';
 import LinkingConfiguration from './LinkingConfiguration';
 import NotificationScreen from '../screens/Onboarding/NotificationScreen';
 import PersonFormScreen from '../screens/Onboarding/PersonFormScreen';
@@ -73,7 +72,6 @@ function RootNavigator() {
   return (
     <Stack.Navigator screenOptions={{ headerShown: false }}>
       <Stack.Screen name="Root" component={BottomTabNavigator} />
-      <Stack.Screen name="Drawer" component={DrawerNavigation} />
       <Stack.Screen
         name="NotFound"
         component={NotFoundScreen}
