@@ -27,8 +27,6 @@ export default function MyDog(): React.ReactElement {
       pressHandler: () => console.log("clicked Activities"),
     },
   ];
-  // This image should be saved to backend for specific user
-  // const [imageToUpload, setImageToUpload] = useState<string | null>(null);
 
   async function getImagePermission(): Promise<true | false> {
     if (Platform.OS !== "web") {
@@ -54,7 +52,6 @@ export default function MyDog(): React.ReactElement {
         allowsMultipleSelection: false,
       });
       if (!result.cancelled) {
-        // setImageToUpload(result.uri);
         setDogInfo({ ...dogInfo, image: result.uri });
       }
     } catch (err) {
@@ -131,6 +128,8 @@ const styles = StyleSheet.create({
     fontFamily: "montserrat-semiBold",
   },
   dogImage: {
+    marginTop: -30,
+    marginBottom: -1,
     borderRadius: 500,
     width: 200,
     height: 200,
