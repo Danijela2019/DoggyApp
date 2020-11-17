@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
   },
   btnWrapper: {
     width: Layout.window.width - 102,
-    marginTop: 16,
+    marginTop: 0,
     alignItems: 'center',
   },
   separator: {

@@ -30,12 +30,10 @@ export default function App(): React.ReactElement | null {
 
   return (
     <SafeAreaProvider>
- 
       <ApolloProvider client={client}>
         <Navigation colorScheme={colorScheme} />
         <StatusBar style="light" />
       </ApolloProvider>
-     
     </SafeAreaProvider>
   );
 }
