@@ -2,8 +2,8 @@ import React from 'react';
 import { StyleSheet, TouchableOpacity } from 'react-native';
 import { useTheme } from '@react-navigation/native';
 import { SimpleLineIcons } from '@expo/vector-icons';
-import { View, Text } from './Themed';
-import { ArticleData, useThemeTypes } from '../types';
+import { View, Text } from '../Themed';
+import { ArticleData, useThemeTypes } from '../../types';
 
 function ArticleCard({ articleData }: { articleData: ArticleData }): React.ReactElement {
   const themeColors: useThemeTypes = useTheme();

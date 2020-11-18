@@ -5,11 +5,11 @@ import { StyleSheet, FlatList, TouchableOpacity } from 'react-native';
 import { useQuery } from '@apollo/client';
 import { TextInput } from 'react-native-gesture-handler';
 import { AntDesign, Ionicons } from '@expo/vector-icons';
-import { View, Text } from './Themed';
+import { View, Text } from '../Themed';
 import ArticleCard from './ArticleCard';
-import { ArticleData, KnowledgeProps, useThemeTypes } from '../types';
-import LoadingIndicator from './LoadingIndicator';
-import { ARTICLES_KNOWLEDGE_TAB } from '../queries/articles';
+import { ArticleData, KnowledgeProps, useThemeTypes } from '../../types';
+import LoadingIndicator from '../LoadingIndicator';
+import { ARTICLES_KNOWLEDGE_TAB } from '../../queries/articles';
 
 function ArticleBoard({ navigation }: KnowledgeProps): React.ReactElement {
   const [searchInput, setSearchInput] = useState<string>('');

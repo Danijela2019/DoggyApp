@@ -19,10 +19,6 @@ import dogFormScreen from '../screens/Onboarding/DogFormScreen';
 export default function Navigation({ colorScheme }: {
   colorScheme: ColorSchemeName;
 }): React.ReactElement {
-  /* TODO any type on colors when using bracket notation
-    How I want to do -> Colors[colorScheme].background
-    What works Colors.dark.card
-  */
   const firstTime = false;
 
   const lassieTheme: themeColorTypes = {

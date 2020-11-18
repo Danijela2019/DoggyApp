@@ -128,7 +128,7 @@ const styles = StyleSheet.create({
     fontFamily: "montserrat-semiBold",
   },
   dogImage: {
-    marginTop: -30,
+    marginTop: 0,
     marginBottom: -1,
     borderRadius: 500,
     width: 200,

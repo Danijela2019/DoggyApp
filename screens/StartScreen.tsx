@@ -6,7 +6,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Text, View } from '../components/Themed';
 import Layout from '../constants/Layout';
 
-import ArticleSummary from '../components/ArticleSummary';
+import ArticleSummary from '../components/articles/ArticleSummary';
 import SecondaryBtn from '../components/buttons/SecondaryBtn';
 import PrimaryBtn from '../components/buttons/PrimaryBtn';
 import MyDog from '../components/MyDog';

@@ -1,12 +1,11 @@
-/* eslint-disable linebreak-style */
 import { Ionicons } from '@expo/vector-icons';
 import { useTheme } from '@react-navigation/native';
 import React, { useState } from 'react';
 import { TouchableOpacity, StyleSheet } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { useThemeTypes, Step2ScreenProps } from '../types';
-import TextInputField from './TextInputField';
-import { Text, View } from './Themed';
+import { useThemeTypes, Step2ScreenProps } from '../../types';
+import TextInputField from '../TextInputField';
+import { Text, View } from '../Themed';
 
 export default function CustomerLoginData({ navigation }: Step2ScreenProps):React.ReactElement {
   const insets = useSafeAreaInsets();

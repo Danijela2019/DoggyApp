@@ -5,13 +5,13 @@ import { useQuery } from '@apollo/client';
 
 import { StyleSheet, TextInput, TouchableOpacity } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { useThemeTypes, Step1ScreenProps } from '../types';
-import { BREEDS_ONBOARDING } from '../queries/articles';
-import { Text, View } from './Themed';
-import ButtonGroup from './buttons/ButtonGroup';
-import TextInputField from './TextInputField';
-import DropdownMenu from './DropdownMenu';
-import LoadingIndicator from './LoadingIndicator';
+import { useThemeTypes, Step1ScreenProps } from '../../types';
+import { BREEDS_ONBOARDING } from '../../queries/articles';
+import { Text, View } from '../Themed';
+import ButtonGroup from '../buttons/ButtonGroup';
+import TextInputField from '../TextInputField';
+import DropdownMenu from '../DropdownMenu';
+import LoadingIndicator from '../LoadingIndicator';
 
 export default function DogLoginData({ navigation }: Step1ScreenProps): React.ReactElement {
   const insets = useSafeAreaInsets();

@@ -6,11 +6,11 @@ import {
 import { useQuery } from '@apollo/client';
 import { useTheme } from '@react-navigation/native';
 import { AntDesign, Ionicons } from '@expo/vector-icons';
-import Layout from '../constants/Layout';
-import { Text, View } from './Themed';
-import { ArticleData, useThemeTypes, StartHomeProps } from '../types';
-import LoadingIndicator from './LoadingIndicator';
-import { ARTICLES_START_TAB } from '../queries/articles';
+import Layout from '../../constants/Layout';
+import { Text, View } from '../Themed';
+import { ArticleData, useThemeTypes, StartHomeProps } from '../../types';
+import LoadingIndicator from '../LoadingIndicator';
+import { ARTICLES_START_TAB } from '../../queries/articles';
 
 export default function ArticleSummary({ navigation }: StartHomeProps): React.ReactElement {
   const themeColors: useThemeTypes = useTheme();
