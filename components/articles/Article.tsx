@@ -7,9 +7,9 @@ import {
 } from 'react-native';
 import { SimpleLineIcons } from '@expo/vector-icons';
 import { useTheme } from '@react-navigation/native';
-import { Text, View } from './Themed';
+import { Text, View } from '../Themed';
 
-import { ArticleData, useThemeTypes } from '../types';
+import { ArticleData, useThemeTypes } from '../../types';
 
 export default function Article({ articleData }: { articleData: ArticleData }): React.ReactElement {
   const themeColors: useThemeTypes = useTheme();

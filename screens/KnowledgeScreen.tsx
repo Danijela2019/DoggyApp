@@ -4,7 +4,7 @@ import { StyleSheet } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useTheme } from '@react-navigation/native';
 import { View } from '../components/Themed';
-import ArticleBoard from '../components/ArticleBoard';
+import ArticleBoard from '../components/articles/ArticleBoard';
 
 import { KnowledgeProps, useThemeTypes } from '../types';
 
