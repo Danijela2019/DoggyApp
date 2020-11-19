@@ -24,12 +24,6 @@ This is a mobile application for new dog owners developed by our team as part of
 - **Download the app, register and login for a free Expo account**
 - **Open the app and in your terminal where Expo is running on your computer scan the QR code.**
 
-### Run the app without dowloading the project 
-- **The app can be viewed from android device if you download the Expo app from Google play**
-- **Create and login to an expo account( it is free)**
-- **Scan the QR code with the expo app on your phone from [this page](https://expo.io/@danijela2019/projects/lassieapp).**
-- **Sidenote(not all features from the app are awailable with this approach at the moment)**
-
 ### Run it on Android Studio Emulator:
 - **Install Android Studio on your computer**
 - **Follow the instructions how to set up the emulator for your own device [here](https://docs.expo.io/workflow/android-studio-emulator/).**
